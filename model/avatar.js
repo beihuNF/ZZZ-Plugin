@@ -435,10 +435,10 @@ export class ZZZAvatarInfo {
     if (this.equip_score <= 185) {
       return 'SS';
     }
-    if (this.equip_score <= 220) {
+    if (this.equip_score <= 210) {
       return 'SSS';
     }
-    if (this.equip_score > 220) {
+    if (this.equip_score > 210) {
       return 'ACE';
     }
     return false;
